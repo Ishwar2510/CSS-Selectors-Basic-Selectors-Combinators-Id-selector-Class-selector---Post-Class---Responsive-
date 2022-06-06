@@ -102,7 +102,7 @@ a{
 .progress-bar{
     
     height:4px;
-    border:1px;
+    border:1px solid white;
     background-color:white;
     padding-bottom:.5rem;
     border-radius:15px;

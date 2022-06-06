@@ -16,6 +16,9 @@
 }
 .left-section{
     background-color: teal;
+    grid-column: 1 / span 1;
+
+
 }
 .right-section{
     background-color:white;

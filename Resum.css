@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding:none;
-    margin:0px;
+    padding:0;
+    margin:0;
     list-style: none;
 
 }
@@ -189,13 +189,15 @@ a{
 }
 
 
-  @media screen and (max-width:1100px) {
+  /* @media screen and (max-width:1100px) {
     .main-content {
       grid-template-columns: 30% 70%;
     }
-  }
+  } */
   @media screen and (max-width: 673px) {
     .main-content {
       grid-template-columns: repeat(1, 1fr);
+      width:90%;
+      min-height: 1000px;
     }
   }
